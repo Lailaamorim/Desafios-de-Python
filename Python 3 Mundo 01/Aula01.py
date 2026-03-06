@@ -1,0 +1,4 @@
+nome = Hamorym
+idade = 22
+peso = 60,8
+print("Meu sobrenome é", nome ", tenho " idade "e peso" peso) 

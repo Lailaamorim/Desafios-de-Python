@@ -1,6 +1,7 @@
 # 🐍 Jornada Python 3
 
-![Minha Foto](./img/guana6.png)
+![novo](./img/guana6.png)
+
 
 > 📚 Estudando Python 3 pelo Curso em Vídeo  
 > 🚀 Evoluindo um desafio por vez
