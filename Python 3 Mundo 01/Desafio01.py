@@ -1,7 +1,3 @@
-# Desafio 1
-# Crie um programa que leia o nome de uma pessoa
-# e mostre uma mensagem de boas-vindas.
-#
-# Exemplo de funcionamento:
-# Qual é o seu nome? Ana
-# Olá, Ana! Prazer em te conhecer.
+# DESAFIO 1
+# Crie um programa que escreva "Olá, Mundo!" na tela.
+print("Olá, Mundo!")

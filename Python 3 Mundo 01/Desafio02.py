@@ -1,12 +1,11 @@
-# Desafio 2
-# Crie um programa que leia o dia, o mês e o ano de nascimento de uma pessoa.
-# Depois mostre uma mensagem com a data de nascimento formatada.
+# DESAFIO 2
+# Faça um programa que leia o nome de uma pessoa.
+# Depois mostre uma mensagem de boas-vindas para ela.
 
 # Exemplo de funcionamento:
-# Dia: 17
-# Mês: Março
-# Ano: 1998
-
+# Nome: Laila
 # Saída esperada:
-# Você nasceu no dia 17 de Março de 1998.
-# Então você tem X anos.
+# Olá Laila! Prazer em te conhecer!
+
+nome = input("Digite seu nome: ")
+print(f"Olá {nome}! Prazer em te conhecer!")

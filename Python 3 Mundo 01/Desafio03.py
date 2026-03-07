@@ -1,10 +1,7 @@
-# Desafio 3
-# Crie um programa que leia dois números digitados pelo usuário
-# e mostre a soma entre eles.
-
-# Exemplo de funcionamento:
-# Primeiro número: 5
-# Segundo número: 3
-
-# Saída esperada:
-# A soma entre 5 e 3 é igual a 8.
+# DESAFIO 3
+# Crie um programa que:
+# 1. Peça ao usuário para digitar o primeiro número
+# 2. Peça ao usuário para digitar o segundo número
+# 3. Some os dois números
+# 4. Mostre na tela o resultado da soma
+# 5. A mensagem deve mostrar os dois números digitados e o resultado
