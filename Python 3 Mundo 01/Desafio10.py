@@ -6,3 +6,7 @@
 # Digite quanto dinheiro você tem: 100.00
 # Considerando o dólar a R$5.00
 # Você pode comprar 20.00 dólares
+valor = float(input("Digite quando dinheiro você tem: "))
+dolar = valor / 5.24
+print(f"Você pode comprar: {dolar:.2f} dólares")
+# Consegui fazer igual ao do professor(❁´◡`❁)

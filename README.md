@@ -1,6 +1,6 @@
 # 🐍 Jornada Python 3
 
-![novo](./img/guana6.png)
+![novo](/img/guana6.png)
 
 
 > 📚 Estudando Python 3 pelo Curso em Vídeo  

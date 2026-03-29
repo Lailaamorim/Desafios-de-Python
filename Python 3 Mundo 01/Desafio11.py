@@ -8,3 +8,10 @@
 # Digite a altura da parede: 2.5
 # A área da parede é 10.0 m²
 # Você precisará de 5.0 litros de tinta
+
+largura = float(input("Digite a largura da parede: "))
+altura = float(input("Digite a altura da parede: "))
+area = largura * altura
+tinta = area / 2
+print(f"Sua parede tem a dimenção de {largura}X{altura} e sua área é de {area}m²")
+# Não consegui fazer sozinha ಥ_ಥ
