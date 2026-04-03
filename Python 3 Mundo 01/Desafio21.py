@@ -8,4 +8,10 @@
 # DICA:
 # - Você vai precisar instalar uma biblioteca externa
 # - Exemplo: pygame
-# - O arquivo deve estar na mesma pasta do programa
+
+import pygame 
+
+pygame.init()
+pygame.mixer.music.load("audio.mpeg")
+pygame.mixer.music.play()
+pygame.event.wait()
