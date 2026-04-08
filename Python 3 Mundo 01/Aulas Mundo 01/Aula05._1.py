@@ -90,3 +90,14 @@ print(frase2.strip())
 lista = ["Eu", "vou", "ser", "uma", "programadora", "incrível"]
 print(" ".join(lista))
 # Resultado: 'Eu vou ser uma programadora incrível'
+
+# DICA:
+# Para contar caracteres em Python ignorando espaçoes, ultilize o
+# método .replace() para remover os espaçoes e, em seguida, aplique a 
+# função len().Essa abordagem substitui os espaçoes por um caractere vazio,
+# permitindo que a função de tamanho conte os caracteres restantes. 
+nome = input("Digite seu nome: ")
+print(nome.upper())
+print(nome.lower())
+nomes = len(nome.replace(" ", ""))
+print(nomes)
