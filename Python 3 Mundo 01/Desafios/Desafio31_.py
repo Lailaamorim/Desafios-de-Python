@@ -17,3 +17,9 @@
 
 # Se a viagem for até 200Km → preço = 0.50 por Km
 # Se a viagem for maior que 200Km → preço = 0.45 por Km
+
+distancia = int(input("Qual a distância em KM? "))
+if distancia <= 200:
+  print(f"O valor da passagem é R$ {distancia * 0.50}")
+else: 
+  print(f"O valor da passagem é R$ {distancia * 0.45}")  
