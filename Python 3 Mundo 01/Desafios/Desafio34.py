@@ -21,3 +21,9 @@
 # Quem ganhava R$ 1000.00 passa a ganhar R$ 1150.00 agora.
 
 # ==================================================
+salario = float(input("Qual é o salário do funcionário? R$ "))
+if salario > 1250: 
+    aumento = (salario *0.10) + salario
+else:
+    aumento  = (salario * 0.15) + salario
+print(f"Quem ganhava R$ {salario:.2f} passa a ganhar R$ {aumento:.2f} agora.")
