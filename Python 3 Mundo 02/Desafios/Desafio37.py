@@ -16,3 +16,25 @@
 #
 # Sua opção: 1
 # 25 convertido para BINÁRIO é 11001
+
+numero = int(input("Digite um número: "))
+opcao = int(input("Escolha uma opção: [1], [2] ou [3]: "))
+
+if opcao == 1:
+  resultado = bin(numero)
+  print(f"O numero {numero} convertido para  BINÁRIO é {resultado}")
+  # Converter para binário
+
+elif opcao == 2:  
+  resultado = oct(numero)
+  print(f"O numero {numero} convertido para OCTAL é {resultado}")
+  # Converter para octal
+
+elif opcao == 3:
+  resultado = hex(numero)
+  print(f"O número {numero} convertido para HEXADECIMAL é {resultado}")
+  # Converter para hexadecimal
+
+else:
+  print("Opção Inválida")
+  # Opção Inválida

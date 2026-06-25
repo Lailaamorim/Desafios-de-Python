@@ -4,18 +4,43 @@
 # e calcule sua média, mostrando uma mensagem no final,
 # de acordo com a média atingida:
 #
-# - Média abaixo de 5.0:
-#   REPROVADO
-#
-# - Média entre 5.0 e 6.9:
-#   RECUPERAÇÃO
-#
-# - Média 7.0 ou superior:
-#   APROVADO
-#
 # Exemplo:
 # Digite a primeira nota: 7
 # Digite a segunda nota: 8
 #
 # A média foi 7.5
 # APROVADO
+#
+# ----------------------------------------
+#
+# Exemplo:
+# Digite a primeira nota: 3
+# Digite a segunda nota: 4
+#
+# A média foi 3.5
+# REPROVADO
+#
+# ----------------------------------------
+#
+# Exemplo:
+# Digite a primeira nota: 5
+# Digite a segunda nota: 6
+#
+# A média foi 5.5
+# RECUPERAÇÃO
+
+nota1 = float(input("Digite a primeira nota: "))
+nota2 = float(input("Digite a Segunda nota: "))
+print()
+
+media = (nota1 + nota2) / 2
+print(f"A média foi {media}")
+
+if media >= 7:
+  print("APROVADO!!")
+
+elif media < 7 and media >= 5:
+  print("RECUPERAÇÃO!!")
+
+else:
+    print("REPROVADO!!")
