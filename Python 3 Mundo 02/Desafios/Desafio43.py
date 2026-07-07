@@ -19,10 +19,21 @@
 #
 # - Acima de 40:
 #   Obesidade Mórbida
-#
-# Exemplo:
-# Digite o peso: 70
-# Digite a altura: 1.75
-#
-# O IMC dessa pessoa é 22.9
-# Status: PESO IDEAL
+
+peso = float(input("Digite seu peso (kg): "))
+altura = float(input("Digite sua altura (m): "))
+
+imc = peso / (altura * altura)
+
+print(f"\nSeu IMC é {imc:.2f}")
+
+if imc < 18.5:
+    print("Status: Abaixo do peso")
+elif imc >= 18.5 and imc < 25:
+    print("Status: Peso ideal")
+elif imc >= 25 and imc < 30:
+    print("Status: Sobrepeso")
+elif imc >= 30 and imc < 40:
+    print("Status: Obesidade")
+else:
+    print("Status: Obesidade mórbida")
