@@ -164,3 +164,57 @@ Esses são os fundamentos da programação em Python.
 """
 
 print("Fim da introdução ao Python! 🚀")
+
+# Monte para cada exercício uma receita de lógica, será um pensamento passo a passo de como resolver o problema.
+# como uma receita de bolo, você vai escrever os passos que precisa seguir para resolver o problema.
+#  
+# ==========================================
+# DESAFIO XX
+# ==========================================
+
+# OBJETIVO
+#
+# O que o exercício quer resolver?
+
+# ------------------------------------------
+# RECEITA DA LÓGICA
+# ------------------------------------------
+
+# PASSO 1
+# O que preciso pedir ao usuário?
+
+# PASSO 2
+# O que preciso guardar em uma variável?
+
+# PASSO 3
+# Preciso repetir alguma coisa?
+#
+# Se sim, quantas vezes?
+
+# PASSO 4
+# Preciso fazer alguma comparação?
+#
+# Se sim, qual?
+
+# PASSO 5
+# Preciso contar alguma coisa?
+#
+# Ou preciso somar?
+
+# PASSO 6
+# O que preciso mostrar no final?
+
+# ------------------------------------------
+# FERRAMENTAS QUE VOCÊ VAI USAR
+# ------------------------------------------
+
+# ✔ input
+# ✔ print
+# ✔ if
+# ✔ elif
+# ✔ else
+# ✔ for
+# ✔ while
+# ✔ contador
+# ✔ acumulador
+# ✔ comparação
