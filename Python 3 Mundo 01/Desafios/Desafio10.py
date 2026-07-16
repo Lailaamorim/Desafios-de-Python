@@ -10,3 +10,49 @@ valor = float(input("Digite quando dinheiro você tem: "))
 dolar = valor / 5.24
 print(f"Você pode comprar: {dolar:.2f} dólares")
 # Consegui fazer igual ao do professor(❁´◡`❁)
+
+# ==========================================
+# DESAFIO 10
+# ==========================================
+
+# OBJETIVO
+#
+# Converter um valor em reais
+# para dólares.
+
+# ------------------------------------------
+# RECEITA DA LÓGICA
+# ------------------------------------------
+
+# PASSO 1
+# Ler a quantidade de dinheiro em reais,
+# guardando-a em uma variável.
+
+# PASSO 2
+# Dividir esse valor
+# pela cotação do dólar.
+
+# PASSO 3
+# Mostrar quantos dólares
+# podem ser comprados.
+
+# ------------------------------------------
+# O QUE O PROFESSOR QUIS ENSINAR
+# ------------------------------------------
+
+# Para converter reais em dólares,
+# divide-se o valor em reais
+# pela cotação do dólar.
+
+# Formatar o resultado
+# para mostrar duas casas decimais.
+
+# ------------------------------------------
+# FERRAMENTAS UTILIZADAS
+# ------------------------------------------
+
+# ✔ input()
+# ✔ float()
+# ✔ variável
+# ✔ operador (/)
+# ✔ print()

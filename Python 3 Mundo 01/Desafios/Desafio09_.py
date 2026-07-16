@@ -26,3 +26,51 @@ print(f" {num:2d} X 10 = {num*10}")
 print('='*20)
 
 # Consegui fazer igual ao do professor(❁´◡`❁)
+# ==========================================
+# DESAFIO 09
+# ==========================================
+
+# OBJETIVO
+#
+# Mostrar a tabuada de multiplicação
+# de um número informado pelo usuário.
+
+# ------------------------------------------
+# RECEITA DA LÓGICA
+# ------------------------------------------
+
+# PASSO 1
+# Ler um número inteiro,
+# guardando-o em uma variável.
+
+# PASSO 2
+# Multiplicar esse número
+# pelos valores de 0 até 10.
+
+# PASSO 3
+# Mostrar o resultado
+# de cada multiplicação em formato de tabuada.
+
+# ------------------------------------------
+# O QUE O PROFESSOR QUIS ENSINAR
+# ------------------------------------------
+
+# Utilizar o operador (*)
+# para realizar as multiplicações.
+
+# Utilizar f-strings
+# para montar a tabuada de forma organizada.
+
+# Utilizar a formatação :2d
+# para alinhar os números na impressão.
+
+# ------------------------------------------
+# FERRAMENTAS UTILIZADAS
+# ------------------------------------------
+
+# ✔ input()
+# ✔ int()
+# ✔ variável
+# ✔ operador (*)
+# ✔ f-string
+# ✔ print()
