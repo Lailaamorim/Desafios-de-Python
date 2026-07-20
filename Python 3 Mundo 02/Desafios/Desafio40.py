@@ -44,3 +44,80 @@ elif media < 7 and media >= 5:
 
 else:
     print("REPROVADO!!")
+
+    # ==========================================
+# DESAFIO 40
+# ==========================================
+
+# OBJETIVO
+#
+# Calcular a média de um aluno
+# e informar sua situação
+# de acordo com a nota obtida.
+
+# ------------------------------------------
+# RECEITA DA LÓGICA
+# ------------------------------------------
+
+# PASSO 1
+# Ler as duas notas do aluno,
+# guardando cada uma em sua variável.
+
+# PASSO 2
+# Calcular a média das notas.
+
+# PASSO 3
+# Mostrar a média obtida.
+
+# PASSO 4
+# Verificar se a média
+# é maior ou igual a 7.
+
+# PASSO 5
+# Se for,
+# informar que o aluno
+# está APROVADO.
+
+# PASSO 6
+# Caso contrário,
+# verificar se a média
+# está entre 5 e 6.9.
+
+# PASSO 7
+# Se estiver,
+# informar que o aluno
+# está em RECUPERAÇÃO.
+
+# PASSO 8
+# Caso a média seja menor que 5,
+# informar que o aluno
+# está REPROVADO.
+
+# ------------------------------------------
+# O QUE O PROFESSOR QUIS ENSINAR
+# ------------------------------------------
+
+# Resolver um problema
+# utilizando faixas de valores.
+
+# Utilizar if, elif e else
+# para classificar um resultado.
+
+# Fazer as comparações
+# em uma ordem lógica,
+# do maior valor para o menor.
+
+# ------------------------------------------
+# FERRAMENTAS UTILIZADAS
+# ------------------------------------------
+
+# ✔ input()
+# ✔ float()
+# ✔ variável
+# ✔ operadores (+) e (/)
+# ✔ if
+# ✔ elif
+# ✔ else
+# ✔ operadores de comparação (>=, <)
+# ✔ operador lógico (and)
+# ✔ print()

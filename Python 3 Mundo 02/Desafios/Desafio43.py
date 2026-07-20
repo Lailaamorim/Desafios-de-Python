@@ -37,3 +37,72 @@ elif imc >= 30 and imc < 40:
     print("Status: Obesidade")
 else:
     print("Status: Obesidade mórbida")
+
+    # ==========================================
+# DESAFIO 43
+# ==========================================
+
+# OBJETIVO
+#
+# Calcular o IMC
+# e informar a classificação
+# de acordo com o resultado.
+
+# ------------------------------------------
+# RECEITA DA LÓGICA
+# ------------------------------------------
+
+# PASSO 1
+# Ler o peso
+# e a altura da pessoa,
+# guardando cada valor
+# em sua variável.
+
+# PASSO 2
+# Calcular o IMC.
+
+# PASSO 3
+# Mostrar o valor do IMC.
+
+# PASSO 4
+# Comparar o IMC
+# com cada faixa
+# de classificação.
+
+# PASSO 5
+# Informar o status
+# correspondente ao IMC.
+
+# ------------------------------------------
+# O QUE O PROFESSOR QUIS ENSINAR
+# ------------------------------------------
+
+# Utilizar uma fórmula
+# para obter um resultado.
+
+# Classificar esse resultado
+# utilizando faixas de valores.
+
+# Organizar as comparações
+# do menor valor
+# para o maior.
+
+# Utilizar if, elif e else
+# para que apenas
+# uma classificação
+# seja exibida.
+
+# ------------------------------------------
+# FERRAMENTAS UTILIZADAS
+# ------------------------------------------
+
+# ✔ input()
+# ✔ float()
+# ✔ variável
+# ✔ operadores (*), (/)
+# ✔ if
+# ✔ elif
+# ✔ else
+# ✔ operadores de comparação (<, >=)
+# ✔ operador lógico (and)
+# ✔ print()

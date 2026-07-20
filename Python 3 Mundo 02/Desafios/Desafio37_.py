@@ -38,3 +38,74 @@ elif opcao == 3:
 else:
   print("Opção Inválida")
   # Opção Inválida
+
+# ==========================================
+# DESAFIO 37
+# ==========================================
+
+# OBJETIVO
+#
+# Converter um número inteiro
+# para a base numérica escolhida
+# pelo usuário.
+
+# ------------------------------------------
+# RECEITA DA LÓGICA
+# ------------------------------------------
+
+# PASSO 1
+# Ler um número inteiro.
+
+# PASSO 2
+# Pedir ao usuário
+# que escolha a base
+# para a conversão.
+
+# PASSO 3
+# Verificar qual opção
+# foi escolhida.
+
+# PASSO 4
+# Realizar a conversão
+# correspondente à opção escolhida.
+
+# PASSO 5
+# Mostrar o resultado
+# da conversão.
+
+# PASSO 6
+# Caso a opção seja inválida,
+# informar o usuário.
+
+# ------------------------------------------
+# O QUE O PROFESSOR QUIS ENSINAR
+# ------------------------------------------
+
+# Utilizar uma estrutura
+# de múltiplas decisões (if, elif e else).
+
+# Executar uma ação diferente
+# para cada opção escolhida.
+
+# Utilizar as funções
+# de conversão do Python
+# para binário, octal
+# e hexadecimal.
+
+# Validar a entrada do usuário,
+# tratando opções inválidas.
+
+# ------------------------------------------
+# FERRAMENTAS UTILIZADAS
+# ------------------------------------------
+
+# ✔ input()
+# ✔ int()
+# ✔ variável
+# ✔ if
+# ✔ elif
+# ✔ else
+# ✔ bin()
+# ✔ oct()
+# ✔ hex()
+# ✔ print()

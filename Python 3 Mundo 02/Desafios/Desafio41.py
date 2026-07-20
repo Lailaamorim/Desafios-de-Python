@@ -46,3 +46,73 @@ elif idade <= 25:
   print("Categoria: SÊNIOR")
 else:
   print("Categoria: MASTER")  
+
+# ==========================================
+# DESAFIO 41
+# ==========================================
+
+# OBJETIVO
+#
+# Descobrir a categoria
+# de um atleta
+# de acordo com sua idade.
+
+# ------------------------------------------
+# RECEITA DA LÓGICA
+# ------------------------------------------
+
+# PASSO 1
+# Obter o ano atual.
+
+# PASSO 2
+# Ler o ano de nascimento
+# do atleta.
+
+# PASSO 3
+# Calcular a idade do atleta.
+
+# PASSO 4
+# Mostrar a idade calculada.
+
+# PASSO 5
+# Comparar a idade
+# com os limites
+# de cada categoria.
+
+# PASSO 6
+# Informar a categoria
+# correspondente.
+
+# ------------------------------------------
+# O QUE O PROFESSOR QUIS ENSINAR
+# ------------------------------------------
+
+# Utilizar a data atual
+# para calcular a idade.
+
+# Classificar um valor
+# utilizando faixas de idade.
+
+# Organizar as comparações
+# do menor limite
+# para o maior.
+
+# Utilizar if, elif e else
+# para que apenas
+# uma categoria seja exibida.
+
+# ------------------------------------------
+# FERRAMENTAS UTILIZADAS
+# ------------------------------------------
+
+# ✔ from datetime import date
+# ✔ date.today().year
+# ✔ input()
+# ✔ int()
+# ✔ variável
+# ✔ operadores (-)
+# ✔ if
+# ✔ elif
+# ✔ else
+# ✔ operadores de comparação (<=)
+# ✔ print()

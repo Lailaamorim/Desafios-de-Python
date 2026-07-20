@@ -73,3 +73,91 @@ elif pagamento == 4:
 
 else:
     print("Opção inválida!")
+
+    # ==========================================
+# DESAFIO 44
+# ==========================================
+
+# OBJETIVO
+#
+# Calcular o valor final
+# de uma compra
+# de acordo com
+# a forma de pagamento.
+
+# ------------------------------------------
+# RECEITA DA LÓGICA
+# ------------------------------------------
+
+# PASSO 1
+# Ler o valor da compra.
+
+# PASSO 2
+# Mostrar as opções
+# de pagamento.
+
+# PASSO 3
+# Ler a opção escolhida
+# pelo usuário.
+
+# PASSO 4
+# Verificar qual forma
+# de pagamento foi escolhida.
+
+# PASSO 5
+# Calcular o valor final,
+# aplicando o desconto,
+# mantendo o valor original
+# ou acrescentando juros,
+# conforme a opção escolhida.
+
+# PASSO 6
+# Se o pagamento for
+# em 3x ou mais,
+# perguntar a quantidade
+# de parcelas
+# e calcular o valor
+# de cada uma.
+
+# PASSO 7
+# Mostrar o valor final
+# e, quando necessário,
+# o valor das parcelas.
+
+# PASSO 8
+# Caso a opção
+# seja inválida,
+# informar o usuário.
+
+# ------------------------------------------
+# O QUE O PROFESSOR QUIS ENSINAR
+# ------------------------------------------
+
+# Resolver um problema
+# com várias possibilidades.
+
+# Aplicar porcentagens
+# de desconto e de juros.
+
+# Solicitar uma informação extra
+# apenas quando ela for necessária.
+
+# Utilizar if, elif e else
+# para executar
+# a ação correspondente
+# à escolha do usuário.
+
+# ------------------------------------------
+# FERRAMENTAS UTILIZADAS
+# ------------------------------------------
+
+# ✔ input()
+# ✔ int()
+# ✔ float()
+# ✔ variável
+# ✔ operadores (+), (-), (*), (/)
+# ✔ if
+# ✔ elif
+# ✔ else
+# ✔ operadores de comparação (==)
+# ✔ print()
