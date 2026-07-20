@@ -39,8 +39,12 @@
 #
 # Ao final da contagem, mostrar uma mensagem
 # indicando o estouro dos fogos.
+import time
 
-
+for i in range(10, -1, -1): #inicio, fim, passo
+    print(i)
+    time.sleep(1)
+print("🎆 BOOM! 🎆")     
 
 
 

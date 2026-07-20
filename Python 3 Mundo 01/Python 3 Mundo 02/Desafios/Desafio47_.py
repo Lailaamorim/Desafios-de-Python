@@ -54,9 +54,14 @@
 #
 # Os números devem aparecer em ordem crescente.
 
+# Jeito utilizando o if para verificar se o número é par
+for i in range(0, 51):
+  if i % 2 == 0:
+    print(i)
 
-
-
+# Jeito utilizando o range para gerar apenas os números pares
+for i in range(2, 51, 2):
+    print(i)
 
 
 
