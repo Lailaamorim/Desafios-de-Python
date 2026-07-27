@@ -16,96 +16,33 @@
 # A soma de todos os valores é: 20667
 
 # ------------------------------------------
-# O QUE O PROGRAMA DEVE FAZER
-# ------------------------------------------
-
-# Percorrer todos os números de 1 até 500.
-#
-# Verificar quais números são ímpares.
-#
-# Verificar quais números também são
-# múltiplos de 3.
-#
-# Somar apenas os números que atendem
-# às duas condições.
-#
-# Ao final, mostrar a soma total.
-
-# ------------------------------------------
-# EXEMPLOS DE NÚMEROS QUE ENTRAM NA SOMA
-# ------------------------------------------
-
-# 3
-# 9
-# 15
-# 21
-# 27
-# ...
-# 495
-
-# Observe que:
-#
-# 3  -> é ímpar e múltiplo de 3. ✔
-#
-# 6  -> é múltiplo de 3, mas é par. ✘
-#
-# 15 -> é ímpar e múltiplo de 3. ✔
-#
-# 18 -> é múltiplo de 3, mas é par. ✘
-#
-# 25 -> é ímpar, mas não é múltiplo de 3. ✘
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# ==========================================
-# DESAFIO 47
-# ==========================================
-
-# OBJETIVO
-#
-# Mostrar todos os números pares
-# entre 1 e 50.
-
-# ------------------------------------------
 # RECEITA DA LÓGICA
 # ------------------------------------------
 
 # PASSO 1
-# Iniciar uma repetição
-# começando no número 2.
+# Criar uma variável para armazenar
+# a soma dos números.
 
 # PASSO 2
-# Fazer a repetição
-# avançar de 2 em 2.
+# Percorrer todos os números
+# de 1 até 500.
 
 # PASSO 3
-# Mostrar cada número
-# durante a repetição.
+# Para cada número, verificar
+# se ele é ímpar.
 
 # PASSO 4
-# Encerrar a repetição
-# ao chegar no número 50.
+# Verificar também se ele
+# é múltiplo de 3.
+
+# PASSO 5
+# Se o número atender
+# às duas condições,
+# adicioná-lo à soma.
+
+# PASSO 6
+# Após o término da repetição,
+# mostrar o valor total da soma.
 
 # ------------------------------------------
 # O QUE O PROFESSOR QUIS ENSINAR
@@ -114,14 +51,17 @@
 # Utilizar o laço for
 # para percorrer um intervalo.
 
-# Utilizar o range()
-# definindo o início,
-# o fim
-# e o passo da repetição.
+# Utilizar estruturas de decisão
+# para verificar mais de uma condição.
 
-# Quando o passo é 2,
-# a repetição percorre
-# apenas os números pares.
+# Utilizar uma variável acumuladora
+# para somar valores durante
+# a repetição.
+
+# Trabalhar com os operadores
+# de resto da divisão (%)
+# para identificar números
+# ímpares e múltiplos de 3.
 
 # ------------------------------------------
 # FERRAMENTAS UTILIZADAS
@@ -129,4 +69,7 @@
 
 # ✔ for
 # ✔ range()
+# ✔ if
+# ✔ operador %
+# ✔ variável acumuladora
 # ✔ print()

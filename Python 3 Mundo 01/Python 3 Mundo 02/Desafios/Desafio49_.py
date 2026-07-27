@@ -58,3 +58,7 @@
 #
 # Utilizar o laço FOR para gerar
 # automaticamente cada linha da tabuada.
+
+num = int(input("Digite o número para a tabuada: "))
+for i in range(1, 11):
+  print(f"{i} X {num} = {i*num}")

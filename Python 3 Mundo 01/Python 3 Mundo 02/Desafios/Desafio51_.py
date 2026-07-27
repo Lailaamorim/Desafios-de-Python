@@ -138,3 +138,13 @@
 # Calcular os próximos termos da sequência.
 #
 # Mostrar exatamente os 10 primeiros termos.
+
+termo = int(input("Digite o primeiro termo: "))
+termo_atual = termo
+razao = int(input("Digite a razão: "))
+
+print("Os 10 primeiros termos da PA são:")
+
+for i in range(1, 11):
+    print(termo_atual)
+    termo_atual = termo_atual + razao
