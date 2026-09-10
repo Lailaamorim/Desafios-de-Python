@@ -1,64 +1,46 @@
 # ==========================================
-# DESAFIO 49
+#           TABUADA COLORIDA
 # ==========================================
 
-# ENUNCIADO:
-#
-# Refaça o DESAFIO 09, mostrando a tabuada
-# de um número que o usuário escolher,
-# só que agora utilizando o laço FOR.
+# CORES
+azul = "\033[34m"
+ciano = "\033[36m"
+amarelo = "\033[33m"
+verde = "\033[32m"
+roxo = "\033[35m"
+reset = "\033[0m"
 
 # ------------------------------------------
-# EXEMPLO DE EXECUÇÃO NO TERMINAL
+# TÍTULO
 # ------------------------------------------
 
-# Digite um número: 7
-#
-# Tabuada do 7
-#
-# 7 x 1 = 7
-# 7 x 2 = 14
-# 7 x 3 = 21
-# 7 x 4 = 28
-# 7 x 5 = 35
-# 7 x 6 = 42
-# 7 x 7 = 49
-# 7 x 8 = 56
-# 7 x 9 = 63
-# 7 x 10 = 70
+print(f"{azul}╔══════════════════════════════════╗{reset}")
+print(f"{azul}║          📚 TABUADA 📚           ║{reset}")
+print(f"{azul}╚══════════════════════════════════╝{reset}")
 
 # ------------------------------------------
-# OUTRO EXEMPLO DE EXECUÇÃO
+# ENTRADA DO USUÁRIO
 # ------------------------------------------
 
-# Digite um número: 12
-#
-# Tabuada do 12
-#
-# 12 x 1 = 12
-# 12 x 2 = 24
-# 12 x 3 = 36
-# 12 x 4 = 48
-# 12 x 5 = 60
-# 12 x 6 = 72
-# 12 x 7 = 84
-# 12 x 8 = 96
-# 12 x 9 = 108
-# 12 x 10 = 120
+n = int(input(f"{amarelo}Digite o número da tabuada que deseja: {reset}"))
 
 # ------------------------------------------
-# O QUE O PROGRAMA DEVE FAZER
+# TABUADA
 # ------------------------------------------
 
-# Pedir ao usuário um número inteiro.
-#
-# Mostrar a tabuada desse número.
-#
-# Exibir as multiplicações de 1 até 10.
-#
-# Utilizar o laço FOR para gerar
-# automaticamente cada linha da tabuada.
+print()
+print(f"{roxo}✨ TABUADA DO {n} ✨{reset}")
+print()
 
-num = int(input("Digite o número para a tabuada: "))
 for i in range(1, 11):
-  print(f"{i} X {num} = {i*num}")
+    print(f"{ciano}{n} X {i:2} = {n * i}{reset}")
+
+# ------------------------------------------
+# FINAL
+# ------------------------------------------
+
+print()
+print(f"{verde}╔══════════════════════════════════╗{reset}")
+print(f"{verde}║       ✨ FIM DA TABUADA ✨       ║{reset}")
+print(f"{verde}╚══════════════════════════════════╝{reset}")
+
