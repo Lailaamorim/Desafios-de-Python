@@ -52,6 +52,19 @@
 # Contar quantas pessoas são maiores de idade.
 #
 # Contar quantas pessoas são menores de idade.
-#
-# Ao final, mostrar a quantidade de
-# maiores e de menores de idade.
+
+
+anoAtual = 2026
+menorIdade = 0
+maiorIdade = 0
+for i in range(1, 8):
+  ano_nascimento = int(input(f"Digite o ano de nascimento da {i}° pessoa: "))
+  idade = anoAtual - ano_nascimento
+  if idade >= 21 :  
+    maiorIdade = maiorIdade + 1
+  else:
+    menorIdade = menorIdade + 1
+
+
+print(f"Total de pessoas maiores de idade: {maiorIdade}")
+print(f"Total de pessoas menores de idade: {menorIdade}")
